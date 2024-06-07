@@ -51,6 +51,10 @@ body {
     margin-top: 40px; /* Espaço para a foto de perfil */
 }
 
+h2{
+    color: greenyellow;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
