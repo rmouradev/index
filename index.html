@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Desenvolvedor Fullstack</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="background"></div>
+    <div class="profile-picture">
+        <img src="path/to/your/photo.jpg" alt="Sua Foto">
+    </div>
     <div class="content">
         <h1>Seu Nome</h1>
         <p>Desenvolvedor Fullstack</p>
@@ -24,11 +28,35 @@
         </section>
         <section id="projetos">
             <h2>Projetos</h2>
-            <p>Descrição dos seus projetos.</p>
+            <div class="project">
+                <img src="path/to/project1.jpg" alt="Projeto 1">
+                <div class="project-description">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto 1.</p>
+                    <a href="link/to/project1" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="path/to/project2.jpg" alt="Projeto 2">
+                <div class="project-description">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto 2.</p>
+                    <a href="link/to/project2" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
         </section>
         <section id="contato">
             <h2>Contato</h2>
-            <p>Informações de contato.</p>
+            <form>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
         </section>
     </div>
     <script src="script.js"></script>
