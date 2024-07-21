@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,16 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <div class="background"></div>
-    <div class="profile-picture">
-        <img src="path/eu1.jpeg" alt="Sua Foto">
-    </div>
     <div class="content">
-        <h1>Rodrigo da Silva Moura</h1>
-        <p>Desenvolvedor Fullstack</p>
-        <nav>
+        <div class="profile-picture">
+            <img src="path/eu1.jpeg" alt="Sua Foto">
+        </div>
+        <h1 class="topo">Rodrigo da Silva Moura</h1>
+        <p class="topo">Desenvolvedor Fullstack</p>
+        <nav class="topo">
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -25,7 +27,10 @@
         <section id="sobre">
             <section id="sobre">
                 <h2>Sobre</h2>
-                <p>Olá! Meu nome é Rodrigo, sou um desenvolvedor Fullstack apaixonado por criar soluções inovadoras e funcionais. Com formação em Sistema de Informação pela Universidade Estádio de Sá, venho desenvolvendo projetos que aliam design e funcionalidade para proporcionar a melhor experiência ao usuário.</p>
+                <p>Olá! Meu nome é Rodrigo, sou um desenvolvedor Fullstack apaixonado por criar soluções inovadoras e
+                    funcionais. Com formação em Sistema de Informação pela Universidade Estádio de Sá, venho
+                    desenvolvendo projetos que aliam design e funcionalidade para proporcionar a melhor experiência ao
+                    usuário.</p>
                 <p>Minhas principais habilidades incluem:</p>
                 <ul>
                     <li>Front-end: HTML, CSS, JavaScript, React, Angular</li>
@@ -33,43 +38,56 @@
                     <li>Banco de Dados: MySQL, PostgreSQL, MongoDB</li>
                     <li>Ferramentas: Git, Docker</li>
                 </ul>
-                <p>Atualmente, trabalho no Hospital Azevedo Lima, onde desenvolvo aplicações web escaláveis e mantenho sistemas críticos. <!--Também colaborei com a [Nome da Empresa], contribuindo para o desenvolvimento de suas principais plataformas digitais.--></p>
-                <p>No futuro, pretendo me especializar em AWS e explorar novas oportunidades que me permitam aplicar minhas habilidades para resolver desafios complexos e inovadores.</p>
+                <p>Atualmente, trabalho no Hospital Azevedo Lima, onde desenvolvo aplicações web escaláveis e mantenho
+                    sistemas críticos.
+                    <!--Também colaborei com a [Nome da Empresa], contribuindo para o desenvolvimento de suas principais plataformas digitais.-->
+                </p>
+                <p>No futuro, pretendo me especializar em AWS e explorar novas oportunidades que me permitam aplicar
+                    minhas habilidades para resolver desafios complexos e inovadores.</p>
                 <p>Explore meus projetos abaixo e entre em contato para discutir possíveis colaborações!</p>
             </section>
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="project">
-                <img src="path/to/project1.jpg" alt="Projeto 1">
-                <div class="project-description">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do projeto 1.</p>
-                    <a href="link/to/project1" target="_blank">Ver Projeto</a>
+            <section id="projetos">
+                <h2>Projetos</h2>
+                <div class="project">
+                    <img src="https://private-user-images.githubusercontent.com/110076675/338736616-990ebf11-0edb-41f8-bd9d-5263d8a4e651.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE1NjM4NDAsIm5iZiI6MTcyMTU2MzU0MCwicGF0aCI6Ii8xMTAwNzY2NzUvMzM4NzM2NjE2LTk5MGViZjExLTBlZGItNDFmOC1iZDlkLTUyNjNkOGE0ZTY1MS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyMVQxMjA1NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zZjI2ZmQ3ZjUwNWVkYTU5MTE2M2FiY2FiYWIwYWM3YTYzMzhlMGU3YTdmYTBjMjk4NzIzMzBjNjNjZDg0OTk1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-YKCzAWTdyybFVL5qtltH80C5Ozh6l-_gtiBZwwxfXU"
+                        alt="Projeto Impressoras">
+                    <div class="project-description">
+                        <h3>Projeto Status de Impressoras</h3>
+                        <p>Aplicação que mostra informações de impressoras na rede numa faixa de IP especifico
+                            utilizando o flask, retornando o status das impressoras e nivel do toner.</p>
+                        <a href="https://github.com/rmouradev/impressora" target="_blank">Ver Projeto no github</a>
+                    </div>
                 </div>
-            </div>
-            <div class="project">
-                <img src="path/to/project2.jpg" alt="Projeto 2">
-                <div class="project-description">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do projeto 2.</p>
-                    <a href="link/to/project2" target="_blank">Ver Projeto</a>
+                <div class="project">
+                    <img src="https://private-user-images.githubusercontent.com/110076675/345238462-a9058ba3-5fd7-41a8-a4b5-d2abdf0a6f39.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjE1NjQzMzYsIm5iZiI6MTcyMTU2NDAzNiwicGF0aCI6Ii8xMTAwNzY2NzUvMzQ1MjM4NDYyLWE5MDU4YmEzLTVmZDctNDFhOC1hNGI1LWQyYWJkZjBhNmYzOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcyMVQxMjEzNTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYzYyNWFiMDdiNzkzODkzYjkyZDU5YjdlZmI0NWRjMGQ5NzMyZDkzMjRlYWM0NDQ3Y2UxM2Q4OGE5NDg5NTYzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.csmnZSZf6DrfEsNNbi2tg23xseuaHndtoZey6ma53a8"
+                        alt="Projeto Album">
+                    <div class="project-description">
+                        <h3>Album da Copa América</h3>
+                        <p>Album da Copa América Criado para efeito de estudos<br><br>
+
+                            Veja o projeto do site em: <a href="https://rmouradev.pythonanywhere.com/" target="_blank">
+                                https://rmouradev.pythonanywhere.com/</a>.</p>
+                        <a href="https://github.com/rmouradev/album_copa_ameria" target="_blank">Ver Projeto no
+                            github</a>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section id="contato">
-            <h2>Contato</h2>
-            <form>
-                <input type="email" name="email" placeholder="Seu Email" required>
-                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/rmouradev" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:rodrigosvmoura@gmail.com"><i class="fas fa-envelope"></i></a>
-            </div>
-        </section>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <form>
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                    <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rmouradev" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:rodrigosvmoura@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </section>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
